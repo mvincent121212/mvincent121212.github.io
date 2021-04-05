@@ -25,7 +25,7 @@ export const aboutData = {
     'I now aspire to write for end users, developers, and others to help them understand technical topics in a way that is concise and easily digestible. I am also a self-taught programmer with a specialization in HTML, CSS, and JavaScript (this site was written in Gatsby JS)! Along the way, I also learned how to interpret API data in JSON and XML. I am currently learning React and Redux.',
   paragraphThree:
     'I have experience with API documentation, user manuals, and how-to documents, and I am always striving to learn more. You can check out some of my writing samples below or my blog on Medium ',
-  resume: '../pdf/Michael_Vincent_Resume_Spring_2021.pdf', // if no resume, the button will not show up
+  resume: '../pdf/MichaelVincent_Resume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
