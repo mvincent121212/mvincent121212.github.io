@@ -25,7 +25,7 @@ export const aboutData = {
     'I now aspire to write for end users, developers, and others to help them understand technical topics in a way that is concise and easily digestible. I am also a self-taught programmer with a specialization in HTML, CSS, and JavaScript (this site was written in Gatsby JS)! Along the way, I also learned how to interpret API data in JSON and XML. I am currently learning React and Redux.',
   paragraphThree:
     'I have experience with API documentation, user manuals, and how-to documents, and I am always striving to learn more. You can check out some of my writing samples below or my blog on Medium ',
-  resume: '../pdf/MichaelVincent_Resume.pdf', // if no resume, the button will not show up
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -34,8 +34,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'user-manual-pic.PNG',
     title: 'USER MANUAL - Aspen Plus V10',
-    info:
-      'Aspen Plus is a process simulation software used to model chemical processes. I created a user manual to help people get started with using the software.',
+    info: 'Aspen Plus is a process simulation software used to model chemical processes. I created a user manual to help people get started with using the software.',
     info2: 'Skills used: SnagIt, Jekyll, Markdown, YAML',
     url: 'https://mvincent121212.github.io/Aspen-Intro-User-Manual/',
     repo: '', // if no repo, the button will not show up
@@ -66,8 +65,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'how-to-pic.PNG',
     title: 'HOW TO - How to Restring a Violin',
-    info:
-      'This is a shorter document made during my technical writing certification course. I thought I would try to create a document for something that many people do not know how to do and try to write it such that even a complete novice to a violin would be able to understand how to restring one.',
+    info: 'This is a shorter document made during my technical writing certification course. I thought I would try to create a document for something that many people do not know how to do and try to write it such that even a complete novice to a violin would be able to understand how to restring one.',
     info2: 'Skills used: MS Word',
     howToDoc: '../pdf/how-to.pdf',
     repo: '', // if no repo, the button will not show up

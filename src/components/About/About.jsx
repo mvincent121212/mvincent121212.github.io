@@ -4,11 +4,10 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
-import resumes from "../../pdf/MichaelVincent_Resume"
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const { img, paragraphOne, paragraphTwo, paragraphThree } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -47,20 +46,16 @@ const About = () => {
                     'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree  || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'} <a id='mediumlink' href='https://medium.com/@mvincent1212' target='_blank' >here.</a>
+                  {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}{' '}
+                  <a
+                    id="mediumlink"
+                    href="https://medium.com/@mvincent1212"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    here.
+                  </a>
                 </p>
-                {resumes && (
-                  <span className="d-flex mt-3">
-                    <a
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="cta-btn cta-btn--resume"
-                      href={resumes}
-                    >
-                      Resume
-                    </a>
-                  </span>
-                )}
               </div>
             </Fade>
           </Col>
